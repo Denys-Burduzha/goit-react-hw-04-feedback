@@ -59,7 +59,7 @@ class App  extends Component {
         </MyContainer>
       </div>
     );
-  }
+   }
 }
 
 export default App;
