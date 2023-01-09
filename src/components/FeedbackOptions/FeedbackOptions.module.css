@@ -1,0 +1,21 @@
+
+
+.optionBtn {
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width:40px;
+    height: 60px;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: transparent;
+    line-height: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.optionBtn:hover{background-color: rgb(219, 255, 64);
+    border: 1px solid rgb(219, 255, 64);
+    transition: 500ms;
+    
+} 

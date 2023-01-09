@@ -1,0 +1,28 @@
+
+
+.feedbackContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #191919;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-align: center;
+
+  background: -webkit-linear-gradient(180deg, rgb(91, 165, 223) 50%, rgb(206, 223, 135) 49%);
+  background: -moz-linear-gradient(180deg, rgb(91, 165, 223) 50%, rgb(206, 223, 135) 49%);
+  background: linear-gradient(180deg, rgb(91, 165, 223) 50%, rgb(206, 223, 135) 49%);
+}
+
+.feedbackContainer:hover {
+  -webkit-box-shadow: 17px 19px 35px 22px rgba(34, 60, 80, 0.41);
+  -moz-box-shadow: 17px 19px 35px 22px rgba(34, 60, 80, 0.41);
+  box-shadow: 17px 19px 35px 22px rgba(34, 60, 80, 0.41);
+  background: -webkit-linear-gradient(180deg, rgb(13, 143, 246) 50%, rgb(219, 255, 64) 49%);
+  background: -moz-linear-gradient(180deg, rgb(13, 143, 246) 50%, rgb(219, 255, 64) 49%);
+  background: linear-gradient(180deg, rgb(13, 143, 246) 50%, rgb(219, 255, 64) 49%);
+  transition: 500ms;
+}
