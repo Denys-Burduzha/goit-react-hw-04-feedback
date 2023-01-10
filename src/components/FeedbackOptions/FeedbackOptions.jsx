@@ -9,11 +9,11 @@ const FeedbackOptions = ({options, onLeaveFeedback}) => {
     return feedbacs.map(feedbac => {
         return(
             <button 
-            key={feedbac} 
-            type="button" 
-            className={styles.optionBtn} 
-            name={feedbac}
-            onClick={onLeaveFeedback}
+                key={feedbac} 
+                type="button" 
+                className={styles.optionBtn} 
+                name={feedbac}
+                onClick={onLeaveFeedback}
             >
                 {feedbac === 'good' ? 'Good' : feedbac === 'neutral' ? 'Neutral' : 'Bad' }  
         </button>
